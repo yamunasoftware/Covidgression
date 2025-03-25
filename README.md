@@ -9,17 +9,3 @@ This is a COVID-19 death toll regression model based on a single feature (Total 
 ## Usage
 
 To use the application, simple use the Bash or Batch files listed in the main directory. If you use Windows, run the batch script by running ```covidgression.bat <filename>``` in the command prompt. If you use MacOS, Linux, or GitBash, run the following command in the terminal: ```bash covidgression.sh <filename>```. Note the script takes a <i>N</i> number of days of COVID-19 data as a CSV file.
-
-## Dependencies
-
-- pandas
-- matplotlib
-- numpy
-
-To install these dependencies simply run the pip commands listed below.
-
-```
-pip install pandas
-pip install matplotlib
-pip install numpy
-```
